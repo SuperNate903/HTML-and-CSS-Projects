@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<link rel = "stylesheet" type = "text/css" href = "Basic_CSS_2.css">
+		<p>Custom Font</p>
+		<div style="font-size:large">
+			<h1>&infin;</h1>
+		</div>
+	</body>
+</html>
