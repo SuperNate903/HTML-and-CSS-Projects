@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+	<form action="" method="get">
+		First Name:	&nbsp;<input type="text" name="First_Name"><br>
+		Last Name:	&nbsp;<input type="text" name="Last_Name"><br>
+		<input type="submit" value="Submit">
+	</form>
+</html>

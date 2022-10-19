@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<section>
+			<h1>This is a section!</h1>
+			<p>This is a paragraph<br>with <span style="font-weight:bold">multiple</span> lines!</p>
+		</section>
+	</body>
+</html>
