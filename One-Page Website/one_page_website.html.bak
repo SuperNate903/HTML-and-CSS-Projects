@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<!-- NAV -->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>CONTACT US</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- END NAV -->
+		
+		<!-- HOME -->
+		<div id="home">
+			<div>
+				<div>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<!-- END HOME -->
+		
+		<!-- GALLERY -->
+		<section>
+			<div id="gallery">
+				<h1>Gallery</h1>
+				<div>
+					
+					<!-- PHOTO CONTAINER 1 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_1.jpg" width="512" height="320" alt="A puppy and a kitten looking at each other">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several different breeds of cats and dogs, own yours today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 1 -->
+					
+					<!-- PHOTO CONTAINER 2 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_2.jpg" width="512" height="320" alt="A dog sleeping cuddling with a kitten">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several different breeds of cats and dogs, own yours today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 2 -->
+					
+					<!-- PHOTO CONTAINER 3 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_3.jpg" width="512" height="320" alt="A dog and a kitten hanging around">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several different breeds of cats and dogs, own yours today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 3 -->
+					
+					<!-- PHOTO CONTAINER 4 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_4.jpg" width="512" height="320" alt="A puppy and a Siamese Cat">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several different breeds of cats and dogs, own yours today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 4 -->
+					
+					<!-- PHOTO CONTAINER 5 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_5.jpg" width="512" height="320" alt="A puppy laying overtop of a cat">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several different breeds of cats and dogs, own yours today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 5 -->
+					
+					<!-- PHOTO CONTAINER 6 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_6.jpg" width="512" height="320" alt="A K9 kooking at a kitten on a small stump">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several different breeds of cats and dogs, own yours today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 6 -->
+					
+					<!-- PHOTO CONTAINER 7 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_7.jpg" width="512" height="320" alt="A puppy and a kitten in a basket">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several different breeds of cats and dogs, own yours today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 7 -->
+					
+					<!-- PHOTO CONTAINER 8 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_8.jpg" width="512" height="320" alt="A puppy and a kitten sleeping with each other">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several different breeds of cats and dogs, own yours today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 8 -->
+					
+					<!-- PHOTO CONTAINER 9 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_9.jpg" width="512" height="320" alt="A dog cuddled with a cat">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have several different breeds of cats and dogs, own yours today!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 9 -->
+					
+				</div>
+			</div>
+		</section>
+		<!-- END GALLERY -->
+		
+		<!-- RSVP -->
+		<section>
+			<div id="contact">
+				<div>
+					<h1>Reservations</h1>
+					<div>
+						<h2><span>Your new friend is just around the corner.</span>
+							<br />Get yours today!
+						</h2>
+						<p>
+							Please provide us with your basic contact information.
+						</p>
+						<div>
+							<form section="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div class="form-spacer">
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END RSVP -->
+		
+		<!-- FOOTER -->
+		<footer>
+			<div>
+				www.thespacestation.space &nbsp;|&nbsp; &copy; 2016
+			</div>
+		</footer>
+		<!-- END FOOTER -->
+		
+	</body>
+</html>
