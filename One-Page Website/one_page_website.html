@@ -8,12 +8,13 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
+		<link rel="stylesheet" href="./css/one_page_website.css">
 	</head>
 	<body>
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>CONTACT US</li></a>
@@ -24,25 +25,25 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<span>Canines and Felines</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Canines and Felines</span>
 				</div>
 			</div>
 		</div>
 		<!-- END HOME -->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 					
 					<!-- PHOTO CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_1.jpg" width="512" height="320" alt="A puppy and a kitten looking at each other">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -51,10 +52,10 @@
 					<!-- END PHOTO CONTAINER 1 -->
 					
 					<!-- PHOTO CONTAINER 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_2.jpg" width="512" height="320" alt="A dog sleeping cuddling with a kitten">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -63,10 +64,10 @@
 					<!-- END PHOTO CONTAINER 2 -->
 					
 					<!-- PHOTO CONTAINER 3 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_3.jpg" width="512" height="320" alt="A dog and a kitten hanging around">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -75,10 +76,10 @@
 					<!-- END PHOTO CONTAINER 3 -->
 					
 					<!-- PHOTO CONTAINER 4 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_4.jpg" width="512" height="320" alt="A puppy and a Siamese Cat">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_4.jpg" width="512" height="320" alt="A cat and dog in a field">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -87,10 +88,10 @@
 					<!-- END PHOTO CONTAINER 4 -->
 					
 					<!-- PHOTO CONTAINER 5 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_5.jpg" width="512" height="320" alt="A puppy laying overtop of a cat">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -99,10 +100,10 @@
 					<!-- END PHOTO CONTAINER 5 -->
 					
 					<!-- PHOTO CONTAINER 6 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_6.jpg" width="512" height="320" alt="A Canine kooking at a kitten on a small stump">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -111,10 +112,10 @@
 					<!-- END PHOTO CONTAINER 6 -->
 					
 					<!-- PHOTO CONTAINER 7 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_7.jpg" width="512" height="320" alt="A puppy and a kitten in a basket">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -123,10 +124,10 @@
 					<!-- END PHOTO CONTAINER 7 -->
 					
 					<!-- PHOTO CONTAINER 8 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_8.jpg" width="512" height="320" alt="A puppy and a kitten sleeping with each other">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -135,10 +136,10 @@
 					<!-- END PHOTO CONTAINER 8 -->
 					
 					<!-- PHOTO CONTAINER 9 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_9.jpg" width="512" height="320" alt="A dog cuddled with a cat">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -152,19 +153,22 @@
 		<!-- END GALLERY -->
 		
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="photo-overlap">
+						<img src="./images/reservation.png" width="512" height="360" alt="">
+					</div>
+					<div class="reservation">
 						<h2><span>Your new friend is just around the corner.</span>
 							<br />Get yours today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic contact information.
 						</p>
-						<div>
-							<form section="" method="post">
+						<div class="form-rsvp">
+							<form action="" method="post">
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
 								<input class="rsvp" type="text" value="Email Address">
@@ -172,8 +176,8 @@
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div class="form-spacer">
-									<input type="submit" value="Submit">
+								<div class="submit">
+									<input type="button" value="Submit">
 								</div>
 							</form>
 						</div>
@@ -184,11 +188,9 @@
 		<!-- END RSVP -->
 		
 		<!-- FOOTER -->
-		<footer>
-			<div>
-				www.thespacestation.space &nbsp;|&nbsp; &copy; 2016
-			</div>
-		</footer>
+		<div id="footer">
+			www.thespacestation.space &nbsp;|&nbsp; &copy; 2016
+		</div>
 		<!-- END FOOTER -->
 		
 	</body>
