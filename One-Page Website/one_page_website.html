@@ -9,12 +9,13 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 		<link rel="stylesheet" href="./css/one_page_website.css">
+		<script src="./js/one_page_website.js" defer></script>
 	</head>
 	<body>
 		<!-- NAV -->
 		<div class="wrap">
 			<div class="menu-container">
-				<ul class="menu">
+				<ul class="menu" id="nav">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>CONTACT US</li></a>
@@ -43,7 +44,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_1.jpg" width="512" height="320" alt="A puppy and a kitten looking at each other">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModel();currentSlide(1)">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -55,7 +56,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_2.jpg" width="512" height="320" alt="A dog sleeping cuddling with a kitten">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModel();currentSlide(2)">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -67,7 +68,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_3.jpg" width="512" height="320" alt="A dog and a kitten hanging around">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModel();currentSlide(3)">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -79,7 +80,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_4.jpg" width="512" height="320" alt="A cat and dog in a field">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModel();currentSlide(4)">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -91,7 +92,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_5.jpg" width="512" height="320" alt="A puppy laying overtop of a cat">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModel();currentSlide(5)">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -103,7 +104,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_6.jpg" width="512" height="320" alt="A Canine kooking at a kitten on a small stump">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModel();currentSlide(6)">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -115,7 +116,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_7.jpg" width="512" height="320" alt="A puppy and a kitten in a basket">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModel();currentSlide(7)">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -127,7 +128,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_8.jpg" width="512" height="320" alt="A puppy and a kitten sleeping with each other">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModel();currentSlide(8)">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -139,7 +140,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_9.jpg" width="512" height="320" alt="A dog cuddled with a cat">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModel();currentSlide(9)">
 								<h3>Click to Enlarge</h3>
 								<p>We have several different breeds of cats and dogs, own yours today!</p>
 							</div>
@@ -147,6 +148,94 @@
 					</div>
 					<!-- END PHOTO CONTAINER 9 -->
 					
+				</div>
+
+				<!-- Slideshow container -->
+				<div class="slideshow" id="slideshow-container">
+					<span class="close cursor" onclick="closeModel()">&times;</span>
+					
+					<div class="slide-content">
+						<div class="mySlides">
+							<div class="numbertext">1 / 9</div>
+							<img class="slide-image" src="./images/thumb/thumbnail_1.jpg" style="width:100%">
+						</div>
+			
+						<div class="mySlides">
+							<div class="numbertext">2 / 9</div>
+							<img class="slide-image" src="./images/thumb/thumbnail_2.jpg" style="width:100%">
+						</div>
+			
+						<div class="mySlides">
+							<div class="numbertext">3 / 9</div>
+							<img class="slide-image" src="./images/thumb/thumbnail_3.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">4 / 9</div>
+							<img class="slide-image" src="./images/thumb/thumbnail_4.jpg" style="width:100%">
+						</div>
+			
+						<div class="mySlides">
+							<div class="numbertext">5 / 9</div>
+							<img class="slide-image" src="./images/thumb/thumbnail_5.jpg" style="width:100%">
+						</div>
+			
+						<div class="mySlides">
+							<div class="numbertext">6 / 9</div>
+							<img class="slide-image" src="./images/thumb/thumbnail_6.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">7 / 9</div>
+							<img class="slide-image" src="./images/thumb/thumbnail_7.jpg" style="width:100%">
+						</div>
+			
+						<div class="mySlides">
+							<div class="numbertext">8 / 9</div>
+							<img class="slide-image" src="./images/thumb/thumbnail_8.jpg" style="width:100%">
+						</div>
+			
+						<div class="mySlides">
+							<div class="numbertext">9 / 9</div>
+							<img class="slide-image" src="./images/thumb/thumbnail_9.jpg" style="width:100%">
+						</div>
+			
+						<!-- Next and previous buttons -->
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						
+						<div class="caption-container">
+							<p id="caption"></p>
+						</div>
+
+						<div class="column">
+							<img class="demo cursor" src="./images/thumb/thumbnail_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="A puppy and a kitten looking at each other">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/thumb/thumbnail_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="A dog sleeping cuddling with a kitten">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/thumb/thumbnail_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="A dog and a kitten hanging around">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/thumb/thumbnail_4.jpg" style="width:100%" onclick="currentSlide(4)" alt="A cat and dog in a field">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/thumb/thumbnail_5.jpg" style="width:100%" onclick="currentSlide(5)" alt="A puppy laying overtop of a cat">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/thumb/thumbnail_6.jpg" style="width:100%" onclick="currentSlide(6)" alt="A Canine kooking at a kitten on a small stump">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/thumb/thumbnail_7.jpg" style="width:100%" onclick="currentSlide(7)" alt="A puppy and a kitten in a basket">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/thumb/thumbnail_8.jpg" style="width:100%" onclick="currentSlide(8)" alt="A puppy and a kitten sleeping with each other"">
+						</div>
+						<div class="column">
+							<img class="demo cursor" src="./images/thumb/thumbnail_9.jpg" style="width:100%" onclick="currentSlide(9)" alt="A dog cuddled with a cat">
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
